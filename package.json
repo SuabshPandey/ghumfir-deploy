@@ -1,0 +1,73 @@
+{
+  "name": "ghumfir",
+  "homepage": "https://SuabshPandey.github.io/Zettaminds/ghumfirV2/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@sbmdkl/nepali-datepicker-reactjs": "^1.2.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "10.4.5",
+    "axios": "^0.27.2",
+    "bootstrap": "^4.6.1",
+    "bootstrap-icons": "^1.8.3",
+    "formik": "^2.2.9",
+    "prettier": "^2.6.2",
+    "react": "^18.1.0",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "^18.1.0",
+    "react-hot-toast": "^2.3.0",
+    "react-loader-spinner": "^5.3.3",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-scroll-to-top": "^3.0.0",
+    "react-slick-slider": "^0.15.10",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+    "lint": "eslint --ext .js,.jsx src",
+    "lint:fix": "eslint --ext .js,.jsx src --fix",
+    "format": "prettier --write 'src/**/*.{js,jsx}'",
+    "format:check": "prettier --check 'src/**/*.{js,jsx}'",
+    "format:fix": "prettier --write 'src/**/*.{js,jsx}'"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "plugins": [
+    "react-hooks"
+  ],
+  "rules": {
+    "react-hooks/exhaustive-deps": 0
+  },
+  "overrides": {
+    "autoprefixer": "10.4.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@iconify/react": "^3.2.2",
+    "gh-pages": "^5.0.0"
+  }
+}
